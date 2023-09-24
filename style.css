@@ -1,0 +1,117 @@
+body {
+    background-color: #a8c1f949;
+	width: 960px;
+	margin: 0 auto;
+	font-family: "Verdana";
+}
+
+h1 {
+	color: whitesmoke;
+	font-weight: normal;
+}
+
+header.hlavicka {
+    background: #5795ed;
+	border-radius: 0px 0px 10px 10px;
+	padding: 15px 15px;
+	display: flex;
+}
+
+header.hlavicka img {
+	margin-right: 20px;
+    border-radius: 10px;
+}
+
+.icons {
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+header.hlavicka h1 {
+	line-height: 70px;
+	color: white
+	font-weight: normal;
+	font-size: 1.6em;
+    display: flex;
+}
+
+nav ul {
+    list-style-type: none;
+	padding-left: 0;
+    padding-right: 50px;
+	display: flex;
+	justify-content: left;
+}
+
+nav ul li:hover {
+	background: #9dbaf1;	
+}
+
+nav ul li {
+	width: 100px;
+	height: 40px;
+    margin-right: 30px;
+	border-radius: 15px;
+	background-color: #4e86ed;
+	text-align: center;
+}
+
+nav ul li a {
+	color: whitesmoke;
+	text-decoration: none;
+	font-size: 0.9em;
+	line-height: 40px;
+}
+
+nav ul li:hover a {
+	color: #3f66f3;
+}
+
+article {
+	border-radius: 10px 10px 0px 0px;
+    background: whitesmoke;
+}
+
+article h1 {
+	font-family:"Arial";
+	background: #5795ed;
+	border-radius: 10px 10px 0px 0px;
+	padding: 10px 15px;
+	color: whitesmoke;	
+}
+
+article p {
+    text-align: justify;
+    margin: 15px;
+}
+
+section {
+	padding-bottom: 10px;
+}
+
+footer {	
+	padding: 10px;
+    background: #5795ed;    
+	color: whitesmoke;
+	text-align: center;
+	font-size: 0.8em;
+}
+
+table {
+	margin: 10px 20px;
+	border-collapse: collapse;
+}
+
+table th { 
+	background: #5795ed;
+	color: whitesmoke;
+    text-align: left;
+    font-weight: normal;
+	border: 1px solid #5795ed; 
+	padding: 5px; 
+}
+
+table td { 
+	border: 1px solid #5795ed; 
+	padding: 5px; 
+}
